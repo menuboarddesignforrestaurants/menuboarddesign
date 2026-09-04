@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://menuboarddesignforrestaurants.github.io/menuboarddesign/sitemap.xml
