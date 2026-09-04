@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurant Food Menu Designer | Digital Menu Board & Animation</title>
+
+    <meta name="description" content="Professional restaurant food menu design, animated digital menu boards, LED menu screens, trifold and bifold menu design for restaurants, cafes and takeaways.">
+    
+    <meta name="keywords" content="restaurant food menu design, digital menu board design, animated menu design, restaurant menu designer, LED menu board, trifold menu design, bifold menu design, food menu design">
+
+    <meta name="author" content="Restaurant Food Menu Design">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #181818;
+            padding: 20px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid #333;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #f5c542;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #111, #242424);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .hero p {
+            max-width: 750px;
+            margin: 25px auto;
+            color: #ccc;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            margin: 8px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .whatsapp {
+            background: #25D366;
+            color: white;
+        }
+
+        .portfolio-btn {
+            background: #f5c542;
+            color: #111;
+        }
+
+        section {
+            padding: 80px 7%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 45px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            background: #1d1d1d;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+
+        .service h3 {
+            margin-bottom: 12px;
+            color: #f5c542;
+        }
+
+        .service p {
+            color: #bbb;
+            font-size: 14px;
+        }
+
+        .portfolio {
+            background: #181818;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            background: #222;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid #333;
+        }
+
+        .project img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .project-info {
+            padding: 20px;
+        }
+
+        .project-info h3 {
+            color: #f5c542;
+            margin-bottom: 8px;
+        }
+
+        .project-info p {
+            color: #bbb;
+            font-size: 14px;
+        }
+
+        .about {
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .about p {
+            color: #ccc;
+            font-size: 17px;
+        }
+
+        .contact {
+            text-align: center;
+            background: #181818;
+        }
+
+        .contact p {
+            color: #ccc;
+            margin-bottom: 25px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #0b0b0b;
+            color: #888;
+            font-size: 13px;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Restaurant Menu Design</div>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+<section class="hero">
+
+    <div>
+        <h1>
+            Professional Restaurant Food Menu Design
+        </h1>
+
+        <p>
+            Digital Menu Boards, Animated Menu Videos, LED Screen Menus,
+            Trifold & Bifold Restaurant Menus designed professionally
+            for restaurants, cafes, takeaways and fast-food businesses.
+        </p>
+
+        <a class="btn whatsapp"
+           href="https://wa.me/923423231685"
+           target="_blank">
+           WhatsApp Me
+        </a>
+
+        <a class="btn portfolio-btn" href="#portfolio">
+            View Portfolio
+        </a>
+    </div>
+
+</section>
+
+
+<section id="services">
+
+    <h2 class="section-title">My Services</h2>
+
+    <div class="services">
+
+        <div class="service">
+            <h3>Digital Menu Board</h3>
+            <p>
+                Professional digital menu board designs for TV,
+                LED screens and restaurant displays.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Animated Menu</h3>
+            <p>
+                Eye-catching animated food menu videos for
+                digital screens and restaurant promotions.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Restaurant Food Menu</h3>
+            <p>
+                Modern and professional restaurant food menu
+                designs for print and digital use.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Trifold Menu Design</h3>
+            <p>
+                Professional print-ready trifold menu designs
+                for restaurants and takeaways.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Bifold Menu Design</h3>
+            <p>
+                Clean and attractive bifold food menu designs
+                prepared for professional printing.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>LED Screen Menu</h3>
+            <p>
+                High-quality menu layouts designed specifically
+                for restaurant LED and TV screens.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="portfolio" class="portfolio">
+
+    <h2 class="section-title">My Portfolio</h2>
+
+    <div class="portfolio-grid">
+
+        <div class="project">
+            <img src="menu1.jpg" alt="Restaurant digital menu board design">
+            <div class="project-info">
+                <h3>Digital Menu Board</h3>
+                <p>
+                    Professional restaurant digital menu board
+                    design for LED and TV screens.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="project">
+            <img src="menu2.jpg" alt="Animated restaurant food menu design">
+            <div class="project-info">
+                <h3>Animated Food Menu</h3>
+                <p>
+                    Animated restaurant menu video designed
+                    for digital menu displays.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="project">
+            <img src="menu3.jpg" alt="Restaurant food menu design">
+            <div class="project-info">
+                <h3>Restaurant Food Menu</h3>
+                <p>
+                    Modern food menu design for restaurants,
+                    cafes and takeaways.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="project">
+            <img src="menu4.jpg" alt="Trifold restaurant menu design">
+            <div class="project-info">
+                <h3>Trifold Menu</h3>
+                <p>
+                    Professional print-ready trifold restaurant
+                    menu design.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="project">
+            <img src="menu5.jpg" alt="Bifold restaurant menu design">
+            <div class="project-info">
+                <h3>Bifold Menu</h3>
+                <p>
+                    Elegant bifold food menu design prepared
+                    for professional printing.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="project">
+            <img src="menu6.jpg" alt="LED restaurant menu board">
+            <div class="project-info">
+                <h3>LED Menu Board</h3>
+                <p>
+                    Premium LED screen menu design for
+                    restaurants and fast-food businesses.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="about">
+
+    <div class="about">
+
+        <h2 class="section-title">About My Work</h2>
+
+        <p>
+            I specialize in professional restaurant food menu design,
+            digital menu boards, animated menu videos, LED screen menus,
+            trifold menus and bifold menus. My goal is to help restaurants,
+            cafes, takeaways and fast-food businesses present their food
+            in a professional and attractive way.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+    <h2 class="section-title">Let's Work Together</h2>
+
+    <p>
+        Need a professional restaurant menu or digital menu board?
+        Contact me today for your project.
+    </p>
+
+    <a class="btn whatsapp"
+       href="https://wa.me/923423231685"
+       target="_blank">
+       Contact Me on WhatsApp
+    </a>
+
+    <a class="btn portfolio-btn"
+       href="mailto:umaiyguddu29@gmail.com">
+       Send Email
+    </a>
+
+</section>
+
+
+<footer>
+    © 2026 Restaurant Food Menu Design. All Rights Reserved.
+</footer>
+
+</body>
+  </html>
