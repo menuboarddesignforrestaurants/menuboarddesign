@@ -1,297 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Restaurant Menu Design Portfolio | Digital Menu Boards & Animated Menus</title>
-
-<meta name="description" content="Restaurant menu design portfolio featuring digital menu boards, animated menu videos, printable restaurant menus, digital signage and food advertising designs for USA and UK businesses.">
-
+<title>Restaurant Menu Design Portfolio</title>
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 body{
+    margin:0;
+    padding:40px;
+    background:#111;
+    color:white;
     font-family:Arial,sans-serif;
-    background:#0d0d0d;
-    color:#fff;
-    line-height:1.6;
-}
-
-header{
-    background:#111;
-    border-bottom:1px solid #292929;
-    padding:20px 6%;
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
-.navbar{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    gap:20px;
-}
-
-.logo{
-    color:#f5c542;
-    font-size:24px;
-    font-weight:bold;
-    text-decoration:none;
-}
-
-nav{
-    display:flex;
-    align-items:center;
-    gap:18px;
-    flex-wrap:wrap;
-}
-
-nav a{
-    color:#fff;
-    text-decoration:none;
-    font-size:14px;
-}
-
-nav a:hover{
-    color:#f5c542;
-}
-
-.whatsapp{
-    background:#25D366;
-    color:#fff !important;
-    padding:9px 14px;
-    border-radius:6px;
-    font-weight:bold;
-}
-
-.hero{
-    padding:90px 6%;
     text-align:center;
-    background:linear-gradient(135deg,#0d0d0d,#181818);
 }
-
-.hero h1{
-    font-size:48px;
-    margin-bottom:20px;
-}
-
-.hero h1 span{
+h1{
     color:#f5c542;
 }
-
-.hero p{
-    max-width:850px;
-    margin:0 auto 30px;
-    color:#ccc;
-    font-size:18px;
-}
-
-.btn{
-    display:inline-block;
-    padding:13px 24px;
-    margin:6px;
-    border-radius:6px;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-.btn-gold{
-    background:#f5c542;
-    color:#111;
-}
-
-.btn-green{
-    background:#25D366;
-    color:#fff;
-}
-
-section{
-    padding:70px 6%;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:45px;
-}
-
-.section-title h2{
-    font-size:34px;
-    margin-bottom:10px;
-}
-
-.section-title p{
-    color:#aaa;
-    max-width:750px;
-    margin:auto;
-}
-
-.portfolio{
-    max-width:1200px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:30px;
-}
-
-.portfolio-card{
-    background:#181818;
-    border:1px solid #292929;
-    border-radius:12px;
-    overflow:hidden;
-    transition:.3s;
-}
-
-.portfolio-card:hover{
-    transform:translateY(-5px);
-    border-color:#f5c542;
-}
-
-.portfolio-card img{
-    display:block;
-    width:100%;
+img{
+    max-width:100%;
     height:auto;
-    object-fit:contain;
-    background:#111;
 }
+</style>
+</head>
 
-.portfolio-content{
-    padding:22px;
-}
+<body>
 
-.portfolio-content h3{
-    color:#f5c542;
-    font-size:21px;
-    margin-bottom:8px;
-}
+<h1>Restaurant Menu Design Portfolio</h1>
 
-.portfolio-content p{
-    color:#aaa;
-}
+<p>My restaurant menu design portfolio.</p>
 
-.services{
-    max-width:1100px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:22px;
-}
+<img src="menu1.jpg" alt="Restaurant Menu Design">
 
-.service{
-    background:#181818;
-    border:1px solid #292929;
-    padding:28px 22px;
-    border-radius:10px;
-}
-
-.service h3{
-    color:#f5c542;
-    margin-bottom:10px;
-}
-
-.service p{
-    color:#aaa;
-}
-
-.locations{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:12px;
-    margin-top:25px;
-}
-
-.location{
-    border:1px solid #333;
-    padding:10px 16px;
-    border-radius:5px;
-    color:#ddd;
-}
-
-.contact{
-    text-align:center;
-    background:#151515;
-}
-
-.contact h2{
-    font-size:35px;
-    margin-bottom:15px;
-}
-
-.contact p{
-    color:#bbb;
-    margin-bottom:25px;
-}
-
-footer{
-    background:#090909;
-    padding:30px 6%;
-    text-align:center;
-    border-top:1px solid #222;
-}
-
-footer p{
-    color:#888;
-    margin-bottom:10px;
-}
-
-.footer-links{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-}
-
-.footer-links a{
-    color:#aaa;
-    text-decoration:none;
-}
-
-.footer-links a:hover{
-    color:#f5c542;
-}
-
-@media(max-width:900px){
-
-    .portfolio{
-        grid-template-columns:1fr;
-    }
-
-    .services{
-        grid-template-columns:repeat(2,1fr);
-    }
-
-    .hero h1{
-        font-size:42px;
-    }
-}
-
-@media(max-width:700px){
-
-    .navbar{
-        flex-direction:column;
-    }
-
-    nav{
-        justify-content:center;
-        gap:10px;
-    }
-
-    nav a{
-        font-size:12px;
-    }
-
-    .hero{
-        padding:65px 5%;
-    }
-
-    .hero h1{
-        font-size:34px;
-    }
-
-    .hero
+</body>
+</html>
