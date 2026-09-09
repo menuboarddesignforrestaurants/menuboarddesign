@@ -1,4 +1,4 @@
-here<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -6,342 +6,366 @@ here<!DOCTYPE html>
 
 <title>Restaurant Menu Board Design | Digital Menu Boards USA & UK</title>
 
-<meta name="description" content="Professional restaurant menu board design, digital menu boards, TV and LED menu screens, animated menu videos and printable restaurant menus for businesses across the USA and UK.">
+<meta name="description" content="Professional restaurant menu board design, digital menu boards, TV & LED menu screens, animated menu videos and printable menus for restaurants and takeaways across the USA and UK.">
 
-<meta name="keywords" content="restaurant menu board design, digital menu board design, restaurant menu design, animated menu videos, TV menu screens, LED menu boards, restaurant food menu design, takeaway menu design, cafe menu design, USA restaurant menu designer, UK restaurant menu designer">
-
-<meta name="author" content="Restaurant Food Menu Design">
-<meta name="robots" content="index, follow">
-
-<link rel="canonical" href="https://menuboarddesignforrestaurants.github.io/menuboarddesign/">
-
-<meta property="og:title" content="Restaurant Menu Board Design | Digital Menu Boards USA & UK">
-<meta property="og:description" content="Professional digital menu boards, animated menu videos and restaurant menu designs for businesses across the USA and UK.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://menuboarddesignforrestaurants.github.io/menuboarddesign/">
+<meta name="keywords" content="restaurant menu board design, digital menu boards, restaurant TV menu design, LED menu design, animated menu videos, restaurant menu design, printable menu design, USA, UK">
 
 <style>
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-html {
-    scroll-behavior: smooth;
+body{
+    font-family:Arial, sans-serif;
+    background:#0d0d0d;
+    color:#fff;
+    line-height:1.6;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background: #0d0d0d;
-    color: #ffffff;
-    line-height: 1.6;
+header{
+    background:#111;
+    border-bottom:1px solid #292929;
+    padding:20px 6%;
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
-header {
-    background: #111111;
-    padding: 18px 6%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    border-bottom: 1px solid #333;
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
 }
 
-.logo {
-    font-size: 22px;
-    font-weight: bold;
-    color: #f5c542;
+.logo{
+    color:#f5c542;
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
 }
 
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+nav{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    flex-wrap:wrap;
 }
 
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin-left: 18px;
-    font-size: 14px;
+nav a{
+    color:#fff;
+    text-decoration:none;
+    font-size:14px;
 }
 
-nav a:hover {
-    color: #f5c542;
+nav a:hover{
+    color:#f5c542;
 }
 
-.hero {
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 70px 6%;
+.whatsapp{
+    background:#25D366;
+    color:#fff !important;
+    padding:9px 14px;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.hero{
+    min-height:650px;
+    padding:90px 6%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
     background:
-        radial-gradient(circle at top right, #3a2f12, transparent 35%),
-        linear-gradient(135deg, #0d0d0d, #242424);
+    linear-gradient(rgba(0,0,0,.72),rgba(0,0,0,.82)),
+    url("menu1.jpg") center/cover no-repeat;
 }
 
-.hero-content {
-    max-width: 1050px;
+.hero-content{
+    max-width:900px;
 }
 
-.hero h1 {
-    font-size: 52px;
-    line-height: 1.15;
-    margin-bottom: 25px;
+.hero h1{
+    font-size:52px;
+    line-height:1.15;
+    margin-bottom:22px;
 }
 
-.hero h1 span {
-    color: #f5c542;
+.hero h1 span{
+    color:#f5c542;
 }
 
-.hero p {
-    max-width: 850px;
-    margin: 0 auto 30px;
-    color: #cccccc;
-    font-size: 18px;
+.hero p{
+    color:#ddd;
+    font-size:19px;
+    max-width:850px;
+    margin:0 auto 30px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 14px 28px;
-    margin: 7px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
+.btn{
+    display:inline-block;
+    padding:14px 25px;
+    margin:6px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
 }
 
-.whatsapp {
-    background: #25D366;
-    color: #ffffff;
+.btn-gold{
+    background:#f5c542;
+    color:#111;
 }
 
-.whatsapp:hover {
-    transform: translateY(-3px);
+.btn-green{
+    background:#25D366;
+    color:#fff;
 }
 
-.portfolio-btn {
-    background: #f5c542;
-    color: #111111;
+section{
+    padding:75px 6%;
 }
 
-.portfolio-btn:hover {
-    transform: translateY(-3px);
+.section-title{
+    text-align:center;
+    margin-bottom:45px;
 }
 
-.hero-image {
-    margin: 45px auto 0;
-    max-width: 900px;
-    background: #171717;
-    padding: 12px;
-    border-radius: 18px;
-    border: 1px solid #333;
+.section-title h2{
+    font-size:36px;
+    margin-bottom:12px;
 }
 
-.hero-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    border-radius: 10px;
+.section-title p{
+    color:#aaa;
+    max-width:800px;
+    margin:auto;
 }
 
-section {
-    padding: 85px 6%;
+.services{
+    max-width:1150px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
 }
 
-.section-title {
-    text-align: center;
-    font-size: 38px;
-    margin-bottom: 45px;
+.card{
+    background:#181818;
+    border:1px solid #292929;
+    padding:30px 25px;
+    border-radius:10px;
+    transition:.3s;
 }
 
-.section-title span {
-    color: #f5c542;
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#f5c542;
 }
 
-.services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 22px;
+.card h3{
+    color:#f5c542;
+    font-size:21px;
+    margin-bottom:12px;
 }
 
-.service {
-    background: #181818;
-    padding: 32px 25px;
-    border-radius: 16px;
-    text-align: center;
-    border: 1px solid #333;
+.card p{
+    color:#bbb;
 }
 
-.service h3 {
-    color: #f5c542;
-    margin-bottom: 12px;
-    font-size: 21px;
+.portfolio{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
 }
 
-.service p {
-    color: #bbbbbb;
-    font-size: 15px;
+.portfolio-item{
+    background:#181818;
+    border:1px solid #292929;
+    border-radius:10px;
+    overflow:hidden;
 }
 
-.portfolio {
-    background: #151515;
+.portfolio-item img{
+    display:block;
+    width:100%;
+    height:auto;
+    object-fit:contain;
 }
 
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 28px;
+.portfolio-info{
+    padding:18px;
 }
 
-.project {
-    background: #202020;
-    border-radius: 16px;
-    overflow: hidden;
-    border: 1px solid #333;
+.portfolio-info h3{
+    color:#f5c542;
+    margin-bottom:6px;
 }
 
-.project img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    background: #111111;
+.portfolio-info p{
+    color:#aaa;
+    font-size:14px;
 }
 
-.project-info {
-    padding: 20px;
+.about{
+    max-width:950px;
+    margin:auto;
+    color:#ccc;
+    font-size:17px;
 }
 
-.project-info h3 {
-    color: #f5c542;
-    margin-bottom: 8px;
+.about p{
+    margin-bottom:18px;
 }
 
-.project-info p {
-    color: #bbbbbb;
-    font-size: 14px;
+.locations{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:25px;
 }
 
-.about {
-    max-width: 950px;
-    margin: auto;
-    text-align: center;
+.location{
+    border:1px solid #333;
+    padding:10px 16px;
+    border-radius:5px;
+    color:#ddd;
 }
 
-.about p {
-    color: #cccccc;
-    font-size: 17px;
-    margin-bottom: 20px;
+.contact{
+    background:#151515;
+    text-align:center;
 }
 
-.locations {
-    margin-top: 30px;
-    padding: 25px;
-    background: #181818;
-    border: 1px solid #333;
-    border-radius: 15px;
+.contact h2{
+    font-size:36px;
+    margin-bottom:15px;
 }
 
-.locations strong {
-    color: #f5c542;
+.contact p{
+    color:#bbb;
+    margin-bottom:25px;
 }
 
-.contact {
-    text-align: center;
-    background: #181818;
+.contact-info{
+    margin-top:20px;
 }
 
-.contact p {
-    max-width: 750px;
-    margin: 0 auto 25px;
-    color: #cccccc;
+.contact-info a{
+    color:#f5c542;
+    text-decoration:none;
 }
 
-.contact-details {
-    margin-top: 25px;
-    font-size: 16px;
+footer{
+    background:#090909;
+    padding:35px 6%;
+    text-align:center;
+    border-top:1px solid #222;
 }
 
-.contact-details a {
-    color: #f5c542;
-    text-decoration: none;
+footer p{
+    color:#888;
+    margin-bottom:15px;
 }
 
-footer {
-    text-align: center;
-    padding: 30px 20px;
-    background: #080808;
-    color: #888888;
-    font-size: 13px;
+.footer-links{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
 }
 
-.footer-contact {
-    margin-top: 10px;
+.footer-links a{
+    color:#aaa;
+    text-decoration:none;
 }
 
-.footer-contact a {
-    color: #f5c542;
-    text-decoration: none;
-    margin: 0 8px;
+.footer-links a:hover{
+    color:#f5c542;
 }
 
-@media (max-width: 800px) {
+@media(max-width:900px){
 
-    header {
-        flex-direction: column;
-        gap: 15px;
+    .services{
+        grid-template-columns:repeat(2,1fr);
     }
 
-    nav a {
-        margin: 5px 7px;
-        display: inline-block;
+    .portfolio{
+        grid-template-columns:repeat(2,1fr);
     }
 
-    .hero {
-        padding-top: 55px;
-    }
-
-    .hero h1 {
-        font-size: 38px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .section-title {
-        font-size: 30px;
-    }
-
-    section {
-        padding: 65px 5%;
+    .hero h1{
+        font-size:42px;
     }
 }
 
-@media (max-width: 500px) {
+@media(max-width:700px){
 
-    .hero h1 {
-        font-size: 32px;
+    header{
+        position:relative;
     }
 
-    .logo {
-        font-size: 19px;
+    .navbar{
+        flex-direction:column;
     }
 
-    .portfolio-grid {
-        grid-template-columns: 1fr;
+    nav{
+        justify-content:center;
+        gap:10px;
     }
 
+    nav a{
+        font-size:12px;
+    }
+
+    .hero{
+        min-height:550px;
+        padding:70px 5%;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .services,
+    .portfolio{
+        grid-template-columns:1fr;
+    }
+
+    section{
+        padding:55px 5%;
+    }
+
+    .section-title h2{
+        font-size:29px;
+    }
 }
 
+@media(max-width:450px){
+
+    .logo{
+        font-size:20px;
+    }
+
+    .hero h1{
+        font-size:29px;
+    }
+
+    .btn{
+        display:block;
+        margin:10px auto;
+        max-width:260px;
+    }
+}
 </style>
 </head>
 
@@ -349,702 +373,46 @@ footer {
 
 <header>
 
-<div class="logo">
-Restaurant Menu Design
-</div>
+<div class="navbar">
+
+<a href="index.html" class="logo">Restaurant Menu Design</a>
 
 <nav>
-<a href="#services">Services</a>
-<a href="#portfolio">Portfolio</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-<a href="https://wa.me/923423231685" target="_blank">WhatsApp</a>
-</nav>
 
-</header>
+<a href="index.html">Home</a>
 
-
-<section class="hero">
-
-<div class="hero-content">
-
-<h1>
-Professional <span>Restaurant Menu Board Design</span>
-</h1>
-
-<p>
-Make your restaurant menu stand out with professional digital menu boards,
-TV and LED menu screens, animated menu videos and printable restaurant menus.
-We create modern designs for restaurants, cafés, fast-food businesses and takeaways
-across the USA and UK.
-</p>
-
-<a class="btn whatsapp"
-href="https://wa.me/923423231685"
-target="_blank"
-rel="noopener">
-GET A FREE QUOTE
+<a href="digital-menu-boards.html">
+Digital Menu Boards
 </a>
 
-<a class="btn portfolio-btn" href="#portfolio">
-VIEW PORTFOLIO
+<a href="animated-menu-videos.html">
+Animated Videos
 </a>
 
-<div class="hero-image">
-
-<img src="menu1.jpg"
-alt="Professional restaurant digital menu board design for TV and LED screen">
-
-</div>
-
-</div>
-
-</section>
-
-
-<section id="services">
-
-<h2 class="section-title">
-Our <span>Restaurant Menu Design Services</span>
-</h2>
-
-<div class="services">
-
-<div class="service">
-<h3>Digital Menu Boards</h3>
-<p>
-Professional digital menu board designs for restaurant TV screens,
-LED displays and digital signage.
-</p>
-</div>
-
-<div class="service">
-<h3>Animated Menu Videos</h3>
-<p>
-Eye-catching animated food menu videos for TV screens,
-LED displays and restaurant promotions.
-</p>
-</div>
-
-<div class="service">
-<h3>TV & LED Menu Design</h3>
-<p>
-Modern food menu designs created specifically for restaurant
-TV screens and LED menu boards.
-</p>
-</div>
-
-<div class="service">
-<h3>Restaurant Food Menus</h3>
-<p>
-Professional food menu designs for restaurants, cafés,
-fast food businesses and takeaways.
-</p>
-</div>
-
-<div class="service">
-<h3>Trifold Menu Design</h3>
-<p>
-Print-ready trifold restaurant menus with attractive layouts
-and professional food presentation.
-</p>
-</div>
-
-<div class="service">
-<h3>Bifold Menu Design</h3>
-<p>
-Clean and elegant bifold menu designs prepared for
-professional restaurant printing.
-</p>
-</div>
-
-</div>
-
-</section>
-
-
-<section id="portfolio" class="portfolio">
-
-<h2 class="section-title">
-Featured <span>Restaurant Menu Design Portfolio</span>
-</h2>
-
-<div class="portfolio-grid">
-
-
-<div class="project">
-
-<img src="menu1.jpg"
-alt="Digital restaurant menu board design for TV and LED screen"
-loading="lazy">
-
-<div class="project-info">
-<h3>Digital Menu Board Design</h3>
-<p>
-Professional digital restaurant menu board for TV and LED screens.
-</p>
-</div>
-
-</div>
-
-
-<div class="project">
-
-<img src="menu2.jpg"
-alt="Animated restaurant food menu video design"
-loading="lazy">
-
-<div class="project-info">
-<h3>Animated Food Menu</h3>
-<p>
-Dynamic animated menu design for restaurant digital displays.
-</p>
-</div>
-
-</div>
-
-
-<div class="project">
-
-<img src="menu3.jpg"
-alt="Modern restaurant food menu graphic design"
-loading="lazy">
-
-<div class="project-info">
-<h3>Restaurant Food Menu</h3>
-<p>
-Modern food menu design for restaurants, cafés and takeaways.
-</p>
-</div>
-
-</div>
-
-
-<div class="project">
-
-<img src="menu4.jpg"
-alt="Professional trifold restaurant menu design"
-loading="lazy">
-
-<div class="project-info">
-<h3>Trifold Menu Design</h3>
-<p>
-Professional print-ready trifold restaurant menu design.
-</p>
-</div>
-
-</div>
-
-
-<div class="project">
-
-<img src="menu5.jpg"
-alt="Elegant bifold restaurant food menu design"
-loading="lazy">
-
-<div class="project-info">
-<h3>Bifold Menu Design</h3>
-<p>
-Elegant bifold food menu design prepared for professional printing.
-</p>
-</div>
-
-</div>
-
-
-<div class="project">
-
-<img src="menu6.jpg"
-alt="Premium LED restaurant menu board design"
-loading="lazy">
-
-<div class="project-info">
-<h3>LED Menu Board Design</h3>
-<p>
-Premium LED screen menu design for restaurants and fast-food businesses.
-</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section id="about">
-
-<div class="about">
-
-<h2 class="section-title">
-Why Choose <span>Our Restaurant Menu Design Service?</span>
-</h2>
-
-<p>
-We specialize in professional restaurant menu board design,
-digital menu boards, animated menu videos, TV menu displays,
-LED screen menus, printable menus, trifold menus and bifold menus.
-</p>
-
-<p>
-Our goal is to help restaurants present their food in a clear,
-attractive and professional way that catches customers' attention.
-</p>
-
-<div class="locations">
-
-<p>
-<strong>Serving Restaurants Across the USA:</strong><br>
-New York, Los Angeles, Chicago, Houston, Dallas, Miami,
-Atlanta, Orlando and other major food markets.
-</p>
-
-<br>
-
-<p>
-<strong>Serving Restaurants Across the UK:</strong><br>
-London, Birmingham, Manchester, Glasgow, Leeds, Liverpool,
-Bradford, Sheffield, Edinburgh and Leicester.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section id="contact" class="contact">
-
-<h2 class="section-title">
-Get Your <span>Restaurant Menu Designed</span>
-</h2>
-
-<p>
-Need a professional digital menu board, animated menu video,
-TV screen menu, LED menu design or printable restaurant menu?
-Contact us today for a free quote.
-</p>
-
-<a class="btn whatsapp"
-href="https://wa.me/923423231685"
-target="_blank"
-rel="noopener">
-WHATSAPP US
+<a href="restaurant-menu-design.html">
+Print Menus
 </a>
 
-<a class="btn portfolio-btn"
-href="mailto:umaiyguddu29@gmail.com">
-SEND EMAIL
+<a href="digital-signage.html">
+Digital Signage
 </a>
 
-<div class="contact-details">
-
-<p>
-WhatsApp:
-<a href="https://wa.me/923423231685" target="_blank">
-+92 342 3231685
+<a href="portfolio.html">
+Portfolio
 </a>
-</p>
 
-<p>
-Email:
-<a href="mailto:umaiyguddu29@gmail.com">
-umaiyguddu29@gmail.com
-</a>
-</p>
-
-</div>
-
-</section>
-
-
-<footer>
-
-<p>
-© 2026 Restaurant Food Menu Design. All Rights Reserved.
-</p>
-
-<div class="footer-contact">
-
-<a href="https://wa.me/923423231685" target="_blank">
+<a href="https://wa.me/923423231685" class="whatsapp">
 WhatsApp
 </a>
 
-<a href="mailto:umaiyguddu29@gmail.com">
-Email
-</a>
-
-</div>
-
-</footer>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Restaurant Menu Board Design | Digital Menu Boards USA & UK</title>
-
-<meta name="description" content="Professional restaurant menu board design, digital menu boards, TV and LED menu screens, animated menu videos and printable restaurant menus for businesses across the USA and UK.">
-
-<meta name="keywords" content="restaurant menu board design, digital menu board design, restaurant menu design, animated menu videos, TV menu screens, LED menu boards, restaurant food menu design, takeaway menu design, cafe menu design, USA restaurant menu designer, UK restaurant menu designer">
-
-<meta name="author" content="Restaurant Food Menu Design">
-<meta name="robots" content="index, follow">
-
-<link rel="canonical" href="https://menuboarddesignforrestaurants.github.io/menuboarddesign/">
-
-<meta property="og:title" content="Restaurant Menu Board Design | Digital Menu Boards USA & UK">
-<meta property="og:description" content="Professional digital menu boards, animated menu videos and restaurant menu designs for businesses across the USA and UK.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://menuboarddesignforrestaurants.github.io/menuboarddesign/">
-
-<style>
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background: #0d0d0d;
-    color: #ffffff;
-    line-height: 1.6;
-}
-
-header {
-    background: #111111;
-    padding: 18px 6%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    border-bottom: 1px solid #333;
-}
-
-.logo {
-    font-size: 22px;
-    font-weight: bold;
-    color: #f5c542;
-}
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin-left: 18px;
-    font-size: 14px;
-}
-
-nav a:hover {
-    color: #f5c542;
-}
-
-.hero {
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 70px 6%;
-    background:
-        radial-gradient(circle at top right, #3a2f12, transparent 35%),
-        linear-gradient(135deg, #0d0d0d, #242424);
-}
-
-.hero-content {
-    max-width: 1050px;
-}
-
-.hero h1 {
-    font-size: 52px;
-    line-height: 1.15;
-    margin-bottom: 25px;
-}
-
-.hero h1 span {
-    color: #f5c542;
-}
-
-.hero p {
-    max-width: 850px;
-    margin: 0 auto 30px;
-    color: #cccccc;
-    font-size: 18px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 14px 28px;
-    margin: 7px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.whatsapp {
-    background: #25D366;
-    color: #ffffff;
-}
-
-.whatsapp:hover {
-    transform: translateY(-3px);
-}
-
-.portfolio-btn {
-    background: #f5c542;
-    color: #111111;
-}
-
-.portfolio-btn:hover {
-    transform: translateY(-3px);
-}
-
-.hero-image {
-    margin: 45px auto 0;
-    max-width: 900px;
-    background: #171717;
-    padding: 12px;
-    border-radius: 18px;
-    border: 1px solid #333;
-}
-
-.hero-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    border-radius: 10px;
-}
-
-section {
-    padding: 85px 6%;
-}
-
-.section-title {
-    text-align: center;
-    font-size: 38px;
-    margin-bottom: 45px;
-}
-
-.section-title span {
-    color: #f5c542;
-}
-
-.services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 22px;
-}
-
-.service {
-    background: #181818;
-    padding: 32px 25px;
-    border-radius: 16px;
-    text-align: center;
-    border: 1px solid #333;
-}
-
-.service h3 {
-    color: #f5c542;
-    margin-bottom: 12px;
-    font-size: 21px;
-}
-
-.service p {
-    color: #bbbbbb;
-    font-size: 15px;
-}
-
-.portfolio {
-    background: #151515;
-}
-
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 28px;
-}
-
-.project {
-    background: #202020;
-    border-radius: 16px;
-    overflow: hidden;
-    border: 1px solid #333;
-}
-
-.project img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    background: #111111;
-}
-
-.project-info {
-    padding: 20px;
-}
-
-.project-info h3 {
-    color: #f5c542;
-    margin-bottom: 8px;
-}
-
-.project-info p {
-    color: #bbbbbb;
-    font-size: 14px;
-}
-
-.about {
-    max-width: 950px;
-    margin: auto;
-    text-align: center;
-}
-
-.about p {
-    color: #cccccc;
-    font-size: 17px;
-    margin-bottom: 20px;
-}
-
-.locations {
-    margin-top: 30px;
-    padding: 25px;
-    background: #181818;
-    border: 1px solid #333;
-    border-radius: 15px;
-}
-
-.locations strong {
-    color: #f5c542;
-}
-
-.contact {
-    text-align: center;
-    background: #181818;
-}
-
-.contact p {
-    max-width: 750px;
-    margin: 0 auto 25px;
-    color: #cccccc;
-}
-
-.contact-details {
-    margin-top: 25px;
-    font-size: 16px;
-}
-
-.contact-details a {
-    color: #f5c542;
-    text-decoration: none;
-}
-
-footer {
-    text-align: center;
-    padding: 30px 20px;
-    background: #080808;
-    color: #888888;
-    font-size: 13px;
-}
-
-.footer-contact {
-    margin-top: 10px;
-}
-
-.footer-contact a {
-    color: #f5c542;
-    text-decoration: none;
-    margin: 0 8px;
-}
-
-@media (max-width: 800px) {
-
-    header {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav a {
-        margin: 5px 7px;
-        display: inline-block;
-    }
-
-    .hero {
-        padding-top: 55px;
-    }
-
-    .hero h1 {
-        font-size: 38px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .section-title {
-        font-size: 30px;
-    }
-
-    section {
-        padding: 65px 5%;
-    }
-}
-
-@media (max-width: 500px) {
-
-    .hero h1 {
-        font-size: 32px;
-    }
-
-    .logo {
-        font-size: 19px;
-    }
-
-    .portfolio-grid {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-</style>
-</head>
-
-<body>
-
-<header>
-
-<div class="logo">
-Restaurant Menu Design
-</div>
-
-<nav>
-<a href="#services">Services</a>
-<a href="#portfolio">Portfolio</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-<a href="https://wa.me/923423231685" target="_blank">WhatsApp</a>
 </nav>
+
+</div>
 
 </header>
 
+
+<!-- HERO -->
 
 <section class="hero">
 
@@ -1055,89 +423,112 @@ Professional <span>Restaurant Menu Board Design</span>
 </h1>
 
 <p>
-Make your restaurant menu stand out with professional digital menu boards,
-TV and LED menu screens, animated menu videos and printable restaurant menus.
-We create modern designs for restaurants, cafés, fast-food businesses and takeaways
-across the USA and UK.
+Professional digital menu boards, TV and LED menu screens,
+animated restaurant menu videos, digital signage and printable
+restaurant menu designs for restaurants, cafés, takeaways and
+fast-food businesses across the USA and UK.
 </p>
 
-<a class="btn whatsapp"
-href="https://wa.me/923423231685"
-target="_blank"
-rel="noopener">
-GET A FREE QUOTE
+<a href="https://wa.me/923423231685" class="btn btn-green">
+Chat on WhatsApp
 </a>
 
-<a class="btn portfolio-btn" href="#portfolio">
-VIEW PORTFOLIO
+<a href="mailto:umaiyguddu29@gmail.com" class="btn btn-gold">
+Get a Free Quote
 </a>
-
-<div class="hero-image">
-
-<img src="menu1.jpg"
-alt="Professional restaurant digital menu board design for TV and LED screen">
-
-</div>
 
 </div>
 
 </section>
 
+
+<!-- SERVICES -->
 
 <section id="services">
 
-<h2 class="section-title">
-Our <span>Restaurant Menu Design Services</span>
-</h2>
+<div class="section-title">
+
+<h2>Restaurant Menu Design Services</h2>
+
+<p>
+Professional menu and digital screen design services for restaurants,
+cafés, takeaways and food businesses.
+</p>
+
+</div>
+
 
 <div class="services">
 
-<div class="service">
+<div class="card">
+
 <h3>Digital Menu Boards</h3>
+
 <p>
-Professional digital menu board designs for restaurant TV screens,
+Custom digital menu boards for restaurant TV screens,
 LED displays and digital signage.
 </p>
+
 </div>
 
-<div class="service">
+
+<div class="card">
+
 <h3>Animated Menu Videos</h3>
+
 <p>
-Eye-catching animated food menu videos for TV screens,
-LED displays and restaurant promotions.
+Dynamic animated food menus and promotional videos
+for restaurant TV and LED screens.
 </p>
+
 </div>
 
-<div class="service">
+
+<div class="card">
+
 <h3>TV & LED Menu Design</h3>
+
 <p>
-Modern food menu designs created specifically for restaurant
-TV screens and LED menu boards.
+Professional food menu layouts designed for restaurant
+TV screens, LED displays and digital signage.
 </p>
+
 </div>
 
-<div class="service">
+
+<div class="card">
+
 <h3>Restaurant Food Menus</h3>
+
 <p>
-Professional food menu designs for restaurants, cafés,
-fast food businesses and takeaways.
+Modern restaurant food menu designs for cafés,
+takeaways, fast food and dining businesses.
 </p>
+
 </div>
 
-<div class="service">
+
+<div class="card">
+
 <h3>Trifold Menu Design</h3>
+
 <p>
-Print-ready trifold restaurant menus with attractive layouts
-and professional food presentation.
+Professional print-ready trifold menu designs
+for restaurants and takeaway businesses.
 </p>
+
 </div>
 
-<div class="service">
+
+<div class="card">
+
 <h3>Bifold Menu Design</h3>
+
 <p>
-Clean and elegant bifold menu designs prepared for
-professional restaurant printing.
+Custom bifold and multi-page restaurant menus
+designed according to your brand.
 </p>
+
 </div>
 
 </div>
@@ -1145,186 +536,260 @@ professional restaurant printing.
 </section>
 
 
-<section id="portfolio" class="portfolio">
+<!-- PORTFOLIO -->
 
-<h2 class="section-title">
-Featured <span>Restaurant Menu Design Portfolio</span>
-</h2>
+<section>
 
-<div class="portfolio-grid">
+<div class="section-title">
+
+<h2>Restaurant Menu Design Portfolio</h2>
+
+<p>
+Explore some of my digital menu board, restaurant menu,
+digital signage and food advertising design work.
+</p>
+
+</div>
 
 
-<div class="project">
+<div class="portfolio">
+
+
+<div class="portfolio-item">
 
 <img src="menu1.jpg"
-alt="Digital restaurant menu board design for TV and LED screen"
-loading="lazy">
+alt="Professional restaurant digital menu board design">
 
-<div class="project-info">
-<h3>Digital Menu Board Design</h3>
+<div class="portfolio-info">
+
+<h3>Digital Menu Board</h3>
+
 <p>
-Professional digital restaurant menu board for TV and LED screens.
+Restaurant TV and LED digital menu board design.
 </p>
-</div>
 
 </div>
 
+</div>
 
-<div class="project">
+
+<div class="portfolio-item">
 
 <img src="menu2.jpg"
-alt="Animated restaurant food menu video design"
-loading="lazy">
+alt="Animated restaurant food menu design">
 
-<div class="project-info">
+<div class="portfolio-info">
+
 <h3>Animated Food Menu</h3>
+
 <p>
-Dynamic animated menu design for restaurant digital displays.
+Restaurant food menu design for animated digital screens.
 </p>
-</div>
 
 </div>
 
+</div>
 
-<div class="project">
+
+<div class="portfolio-item">
 
 <img src="menu3.jpg"
-alt="Modern restaurant food menu graphic design"
-loading="lazy">
+alt="Printable restaurant food menu design">
 
-<div class="project-info">
-<h3>Restaurant Food Menu</h3>
+<div class="portfolio-info">
+
+<h3>Restaurant Print Menu</h3>
+
 <p>
-Modern food menu design for restaurants, cafés and takeaways.
+Professional printable restaurant menu design.
 </p>
-</div>
 
 </div>
 
+</div>
 
-<div class="project">
+
+<div class="portfolio-item">
 
 <img src="menu4.jpg"
-alt="Professional trifold restaurant menu design"
-loading="lazy">
+alt="Restaurant TV screen menu design">
 
-<div class="project-info">
-<h3>Trifold Menu Design</h3>
+<div class="portfolio-info">
+
+<h3>TV Menu Screen</h3>
+
 <p>
-Professional print-ready trifold restaurant menu design.
+Modern digital menu design for restaurant TV displays.
 </p>
-</div>
 
 </div>
 
+</div>
 
-<div class="project">
+
+<div class="portfolio-item">
 
 <img src="menu5.jpg"
-alt="Elegant bifold restaurant food menu design"
-loading="lazy">
+alt="Restaurant digital food advertising design">
 
-<div class="project-info">
-<h3>Bifold Menu Design</h3>
+<div class="portfolio-info">
+
+<h3>Food Advertising</h3>
+
 <p>
-Elegant bifold food menu design prepared for professional printing.
+Digital food advertising and promotional screen design.
 </p>
-</div>
 
 </div>
 
+</div>
 
-<div class="project">
+
+<div class="portfolio-item">
 
 <img src="menu6.jpg"
-alt="Premium LED restaurant menu board design"
-loading="lazy">
+alt="Restaurant digital signage design">
 
-<div class="project-info">
-<h3>LED Menu Board Design</h3>
+<div class="portfolio-info">
+
+<h3>Digital Signage</h3>
+
 <p>
-Premium LED screen menu design for restaurants and fast-food businesses.
+Premium restaurant digital signage and advertising design.
 </p>
+
 </div>
 
 </div>
+
+
+</div>
+
+
+<div style="text-align:center;margin-top:35px;">
+
+<a href="portfolio.html" class="btn btn-gold">
+View Full Portfolio
+</a>
 
 </div>
 
 </section>
 
 
-<section id="about">
+<!-- ABOUT -->
+
+<section>
+
+<div class="section-title">
+
+<h2>Professional Restaurant Design Services</h2>
+
+</div>
+
 
 <div class="about">
 
-<h2 class="section-title">
-Why Choose <span>Our Restaurant Menu Design Service?</span>
-</h2>
-
 <p>
-We specialize in professional restaurant menu board design,
-digital menu boards, animated menu videos, TV menu displays,
-LED screen menus, printable menus, trifold menus and bifold menus.
+I specialize in professional restaurant menu board design,
+digital menu boards, animated menu videos, digital signage
+and printable food menu designs.
 </p>
 
 <p>
-Our goal is to help restaurants present their food in a clear,
-attractive and professional way that catches customers' attention.
+My designs are created for restaurants, cafés, takeaways,
+fast-food businesses, food trucks and other food businesses.
 </p>
-
-<div class="locations">
 
 <p>
-<strong>Serving Restaurants Across the USA:</strong><br>
-New York, Los Angeles, Chicago, Houston, Dallas, Miami,
-Atlanta, Orlando and other major food markets.
+Whether you need a digital menu for restaurant TV screens,
+LED menu boards, promotional advertising screens or a
+print-ready trifold or bifold menu, I can create a design
+according to your brand and requirements.
 </p>
-
-<br>
 
 <p>
-<strong>Serving Restaurants Across the UK:</strong><br>
-London, Birmingham, Manchester, Glasgow, Leeds, Liverpool,
-Bradford, Sheffield, Edinburgh and Leicester.
+Digital designs can be prepared for Full HD 1920 × 1080
+screens and other screen formats. Printable menus can be
+prepared according to your required print size.
 </p>
-
-</div>
 
 </div>
 
 </section>
 
 
-<section id="contact" class="contact">
+<!-- USA UK -->
 
-<h2 class="section-title">
-Get Your <span>Restaurant Menu Designed</span>
-</h2>
+<section>
+
+<div class="section-title">
+
+<h2>Restaurant Menu Design for USA & UK</h2>
 
 <p>
-Need a professional digital menu board, animated menu video,
-TV screen menu, LED menu design or printable restaurant menu?
-Contact us today for a free quote.
+Professional menu and digital signage design services for
+restaurants and food businesses across the United States
+and United Kingdom.
 </p>
 
-<a class="btn whatsapp"
-href="https://wa.me/923423231685"
-target="_blank"
-rel="noopener">
-WHATSAPP US
+</div>
+
+
+<div class="locations">
+
+<div class="location">New York</div>
+<div class="location">Los Angeles</div>
+<div class="location">Chicago</div>
+<div class="location">Houston</div>
+<div class="location">Dallas</div>
+<div class="location">Miami</div>
+<div class="location">Atlanta</div>
+<div class="location">Orlando</div>
+
+<div class="location">London</div>
+<div class="location">Birmingham</div>
+<div class="location">Manchester</div>
+<div class="location">Leeds</div>
+<div class="location">Liverpool</div>
+<div class="location">Bradford</div>
+<div class="location">Sheffield</div>
+<div class="location">Glasgow</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact">
+
+<h2>Ready to Upgrade Your Restaurant Menu?</h2>
+
+<p>
+Send me your menu, logo, food photos or requirements
+and let's create a professional design for your business.
+</p>
+
+
+<a href="https://wa.me/923423231685"
+class="btn btn-green">
+Chat on WhatsApp
 </a>
 
-<a class="btn portfolio-btn"
-href="mailto:umaiyguddu29@gmail.com">
-SEND EMAIL
+
+<a href="mailto:umaiyguddu29@gmail.com"
+class="btn btn-gold">
+Send Email
 </a>
 
-<div class="contact-details">
+
+<div class="contact-info">
 
 <p>
 WhatsApp:
-<a href="https://wa.me/923423231685" target="_blank">
+<a href="https://wa.me/923423231685">
 +92 342 3231685
 </a>
 </p>
@@ -1341,15 +806,40 @@ umaiyguddu29@gmail.com
 </section>
 
 
+<!-- FOOTER -->
+
 <footer>
 
 <p>
-© 2026 Restaurant Food Menu Design. All Rights Reserved.
+© 2026 Restaurant Menu Design. Professional Digital Menu & Restaurant Design.
 </p>
 
-<div class="footer-contact">
 
-<a href="https://wa.me/923423231685" target="_blank">
+<div class="footer-links">
+
+<a href="index.html">Home</a>
+
+<a href="digital-menu-boards.html">
+Digital Menu Boards
+</a>
+
+<a href="animated-menu-videos.html">
+Animated Videos
+</a>
+
+<a href="restaurant-menu-design.html">
+Print Menus
+</a>
+
+<a href="digital-signage.html">
+Digital Signage
+</a>
+
+<a href="portfolio.html">
+Portfolio
+</a>
+
+<a href="https://wa.me/923423231685">
 WhatsApp
 </a>
 
