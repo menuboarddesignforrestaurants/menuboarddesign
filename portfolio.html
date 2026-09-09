@@ -1,35 +1,330 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Restaurant Menu Design Portfolio</title>
+
+<title>Restaurant Menu Design Portfolio | Digital Menu Boards & Animated Menus</title>
+
+<meta name="description" content="Restaurant menu design portfolio featuring digital menu boards, animated menu videos, printable restaurant menus, digital signage and food advertising designs for USA and UK businesses.">
+
 <style>
-body{
+*{
+    box-sizing:border-box;
     margin:0;
-    padding:40px;
-    background:#111;
-    color:white;
-    font-family:Arial,sans-serif;
-    text-align:center;
+    padding:0;
 }
-h1{
+
+body{
+    font-family:Arial,sans-serif;
+    background:#0d0d0d;
+    color:#fff;
+    line-height:1.6;
+}
+
+header{
+    background:#111;
+    padding:20px 5%;
+    border-bottom:1px solid #333;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    padding:8px 12px;
+}
+
+nav a:hover{
     color:#f5c542;
 }
-img{
-    max-width:100%;
+
+.hero{
+    text-align:center;
+    padding:70px 20px 50px;
+}
+
+.hero h1{
+    color:#f5c542;
+    font-size:42px;
+    margin-bottom:18px;
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    color:#ddd;
+    font-size:18px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.portfolio{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin:30px 0 70px;
+}
+
+.card{
+    background:#181818;
+    border:1px solid #333;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
     height:auto;
+    display:block;
+    object-fit:contain;
+}
+
+.card h2{
+    color:#f5c542;
+    font-size:22px;
+    padding:18px 20px 5px;
+}
+
+.card p{
+    color:#ccc;
+    padding:0 20px 20px;
+}
+
+.section{
+    padding:20px 0 70px;
+    text-align:center;
+}
+
+.section h2{
+    color:#f5c542;
+    font-size:32px;
+    margin-bottom:30px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.service{
+    background:#181818;
+    border:1px solid #333;
+    border-radius:10px;
+    padding:25px;
+}
+
+.service h3{
+    color:#f5c542;
+    margin-bottom:10px;
+}
+
+.service p{
+    color:#ccc;
+}
+
+.locations{
+    color:#ccc;
+    max-width:900px;
+    margin:auto;
+    font-size:17px;
+}
+
+.contact{
+    background:#181818;
+    text-align:center;
+    padding:50px 20px;
+    margin-top:20px;
+}
+
+.contact h2{
+    color:#f5c542;
+    margin-bottom:15px;
+}
+
+.contact a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.whatsapp{
+    display:inline-block;
+    background:#25D366;
+    color:#fff !important;
+    padding:12px 25px;
+    border-radius:7px;
+    margin-top:20px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    color:#888;
+    border-top:1px solid #333;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:32px;
+    }
+
+    .portfolio{
+        grid-template-columns:1fr;
+    }
+
+    .services{
+        grid-template-columns:1fr;
+    }
+
+    nav{
+        gap:5px;
+    }
 }
 </style>
 </head>
 
 <body>
 
+<header>
+<nav>
+<a href="index.html">Home</a>
+<a href="digital-menu-boards.html">Digital Menu Boards</a>
+<a href="animated-menu-videos.html">Animated Menu Videos</a>
+<a href="restaurant-menu-design.html">Restaurant Menu Design</a>
+<a href="digital-signage.html">Digital Signage</a>
+<a href="portfolio.html">Portfolio</a>
+</nav>
+</header>
+
+<section class="hero">
 <h1>Restaurant Menu Design Portfolio</h1>
+<p>
+Explore my restaurant design portfolio featuring digital menu boards,
+animated food menu videos, printable menus, TV screens, digital signage
+and professional food advertising designs.
+</p>
+</section>
 
-<p>My restaurant menu design portfolio.</p>
+<main class="container">
 
-<img src="menu1.jpg" alt="Restaurant Menu Design">
+<section class="portfolio">
+
+<div class="card">
+<img src="menu1.jpg" alt="Digital Restaurant Menu Board Design">
+<h2>Digital Restaurant Menu Board</h2>
+<p>Professional digital menu board design for restaurant TV and LED screens.</p>
+</div>
+
+<div class="card">
+<img src="menu2.jpg" alt="Animated Food Menu Design">
+<h2>Animated Food Menu Design</h2>
+<p>Dynamic and cinematic animated menu designs for restaurant displays.</p>
+</div>
+
+<div class="card">
+<img src="menu3.jpg" alt="Restaurant Print Menu Design">
+<h2>Restaurant Print Menu</h2>
+<p>Professional printable restaurant menus including trifold and bifold designs.</p>
+</div>
+
+<div class="card">
+<img src="menu4.jpg" alt="Restaurant TV Menu Screen">
+<h2>Restaurant TV Menu Screen</h2>
+<p>High-quality food menu screen designs for modern restaurants and cafes.</p>
+</div>
+
+<div class="card">
+<img src="menu5.jpg" alt="Digital Food Advertising Design">
+<h2>Digital Food Advertising</h2>
+<p>Eye-catching promotional food advertising for restaurant digital screens.</p>
+</div>
+
+<div class="card">
+<img src="menu6.jpg" alt="Restaurant Digital Signage">
+<h2>Restaurant Digital Signage</h2>
+<p>Premium digital signage designs for TV, LED and commercial advertising screens.</p>
+</div>
+
+</section>
+
+<section class="section">
+<h2>My Services</h2>
+
+<div class="services">
+
+<div class="service">
+<h3>Digital Menu Boards</h3>
+<p>Professional menu boards for restaurant TV and LED displays.</p>
+</div>
+
+<div class="service">
+<h3>Animated Menu Videos</h3>
+<p>Cinematic animated food menus designed to attract customers.</p>
+</div>
+
+<div class="service">
+<h3>Printable Menus</h3>
+<p>Trifold, bifold, A4, A3 and custom restaurant menu designs.</p>
+</div>
+
+<div class="service">
+<h3>Digital Signage</h3>
+<p>Commercial advertising and promotional screen designs.</p>
+</div>
+
+<div class="service">
+<h3>Food Promotions</h3>
+<p>Special offers, best sellers and promotional food graphics.</p>
+</div>
+
+<div class="service">
+<h3>Restaurant Advertising</h3>
+<p>Creative visual advertising solutions for food businesses.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Serving Restaurants in USA & UK</h2>
+
+<p class="locations">
+New York • Los Angeles • Chicago • Houston • Dallas • Miami • Atlanta • Orlando •
+London • Birmingham • Manchester • Leeds • Liverpool • Bradford • Sheffield • Glasgow
+</p>
+</section>
+
+</main>
+
+<section class="contact">
+<h2>Need a Professional Restaurant Menu Design?</h2>
+
+<p>Contact me for digital menu boards, animated menus, printable menus and digital signage.</p>
+
+<a class="whatsapp" href="https://wa.me/923423231685">
+Contact Me on WhatsApp
+</a>
+
+<p style="margin-top:15px;">
+<a href="mailto:umaiyguddu29@gmail.com">umaiyguddu29@gmail.com</a>
+</p>
+</section>
+
+<footer>
+© 2026 Restaurant Menu Board Design. All Rights Reserved.
+</footer>
 
 </body>
 </html>
