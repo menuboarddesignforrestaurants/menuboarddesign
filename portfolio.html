@@ -6,9 +6,7 @@
 
 <title>Restaurant Menu Design Portfolio | Digital Menu Boards & Animated Menus</title>
 
-<meta name="description" content="View our restaurant menu design portfolio including digital menu boards, TV and LED screen menus, animated menu designs and printable restaurant menus for USA and UK businesses.">
-
-<meta name="keywords" content="restaurant menu design portfolio, digital menu board portfolio, restaurant TV menu design, animated menu design, printable restaurant menu, USA, UK">
+<meta name="description" content="Restaurant menu design portfolio featuring digital menu boards, animated menu videos, printable restaurant menus, digital signage and food advertising designs for USA and UK businesses.">
 
 <style>
 *{
@@ -18,7 +16,7 @@
 }
 
 body{
-    font-family:Arial, sans-serif;
+    font-family:Arial,sans-serif;
     background:#0d0d0d;
     color:#fff;
     line-height:1.6;
@@ -73,7 +71,7 @@ nav a:hover{
 }
 
 .hero{
-    padding:85px 6%;
+    padding:90px 6%;
     text-align:center;
     background:linear-gradient(135deg,#0d0d0d,#181818);
 }
@@ -89,9 +87,28 @@ nav a:hover{
 
 .hero p{
     max-width:850px;
-    margin:auto;
+    margin:0 auto 30px;
     color:#ccc;
     font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    padding:13px 24px;
+    margin:6px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn-gold{
+    background:#f5c542;
+    color:#111;
+}
+
+.btn-green{
+    background:#25D366;
+    color:#fff;
 }
 
 section{
@@ -114,9 +131,167 @@ section{
     margin:auto;
 }
 
-.portfolio-grid{
+.portfolio{
     max-width:1200px;
     margin:auto;
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    gap:
+    gap:30px;
+}
+
+.portfolio-card{
+    background:#181818;
+    border:1px solid #292929;
+    border-radius:12px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.portfolio-card:hover{
+    transform:translateY(-5px);
+    border-color:#f5c542;
+}
+
+.portfolio-card img{
+    display:block;
+    width:100%;
+    height:auto;
+    object-fit:contain;
+    background:#111;
+}
+
+.portfolio-content{
+    padding:22px;
+}
+
+.portfolio-content h3{
+    color:#f5c542;
+    font-size:21px;
+    margin-bottom:8px;
+}
+
+.portfolio-content p{
+    color:#aaa;
+}
+
+.services{
+    max-width:1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.service{
+    background:#181818;
+    border:1px solid #292929;
+    padding:28px 22px;
+    border-radius:10px;
+}
+
+.service h3{
+    color:#f5c542;
+    margin-bottom:10px;
+}
+
+.service p{
+    color:#aaa;
+}
+
+.locations{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:25px;
+}
+
+.location{
+    border:1px solid #333;
+    padding:10px 16px;
+    border-radius:5px;
+    color:#ddd;
+}
+
+.contact{
+    text-align:center;
+    background:#151515;
+}
+
+.contact h2{
+    font-size:35px;
+    margin-bottom:15px;
+}
+
+.contact p{
+    color:#bbb;
+    margin-bottom:25px;
+}
+
+footer{
+    background:#090909;
+    padding:30px 6%;
+    text-align:center;
+    border-top:1px solid #222;
+}
+
+footer p{
+    color:#888;
+    margin-bottom:10px;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.footer-links a{
+    color:#aaa;
+    text-decoration:none;
+}
+
+.footer-links a:hover{
+    color:#f5c542;
+}
+
+@media(max-width:900px){
+
+    .portfolio{
+        grid-template-columns:1fr;
+    }
+
+    .services{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+}
+
+@media(max-width:700px){
+
+    .navbar{
+        flex-direction:column;
+    }
+
+    nav{
+        justify-content:center;
+        gap:10px;
+    }
+
+    nav a{
+        font-size:12px;
+    }
+
+    .hero{
+        padding:65px 5%;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero
